@@ -58,4 +58,29 @@ public class Usuario {
 		br.write(System.setProperty("line.separator", "\r\n"));
 		br.close();
 	}
+
+	public void menuprincipal() {
+		System.out.println(" ");
+		System.out.println("Menu de vigagem");
+		System.out.println("1.) Rotas");
+		System.out.println("2.) Login/Cadastro");
+		System.out.println("3.) Sair.");
+
+	}
+
+	public void menulogin() {
+		System.out.println(" ");
+		System.out.println("1.) Cadastre-se");
+		System.out.println("2.) Login");
+		System.out.println("3.) Sair.");
+
+	}
+
+	public void menuusuario() {
+		System.out.println("Menu do usuário");
+		System.out.print("1.) Fazer reserva\n");
+		System.out.print("2.) Cancelar reserva\n");
+		System.out.print("3.) Sair.\n");
+
+	}
 }
